@@ -1,0 +1,17 @@
+[project]
+name = "aivibes"
+version = "0.1.0"
+description = "Resource planning dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.5.6",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "streamlit>=1.65.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
